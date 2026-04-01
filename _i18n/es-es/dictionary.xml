@@ -3245,8 +3245,6 @@ Confirmación de que los servicios NFS/iSCSI están disponibles en los nodos de 
   <block id="d3889fc650fa47326b5f1d0c56f50970" category="inline-link-macro">Estándares de seguridad de POD</block>
   <block id="4e8effbd512bb14dbe10454c0f045ff2" category="paragraph">Un nuevo <block ref="305368b4f0d008a807e095ab9da58448" category="inline-link-macro-rx"></block> Se ha agregado la sección (PSS) detallando los permisos habilitados por Astra Trident en la instalación.</block>
   <block id="278dc4a29aa2b881b9dc4b45a82929c5" category="section-title">Cambios en 22.04</block>
-  <block id="ba09ee47d11962c1ccd13d7e1f10e6c5" category="inline-link">Versiones anteriores de la documentación</block>
-  <block id="368b120a3b5f53a49dc3ab96ec9b8dbd" category="paragraph">NetApp mejora y mejora continuamente sus productos y servicios. Estas son algunas de las últimas funciones de Astra Trident. Para las versiones anteriores, consulte<block ref="25da125dffad1d6323c21354bccf0203" category="inline-link-rx"></block>.</block>
   <block id="7072ec708b0ea7e3243747d8b79c0d20" category="admonition">Si actualiza desde cualquier versión de Trident anterior y utiliza Azure NetApp Files, el <block ref="d5189de027922f81005951e6efe0efd5" prefix="" category="inline-code"></block> el parámetro config es ahora un campo obligatorio singleton.</block>
   <block id="cb60f101c87f3def78d0fef168389244" category="inline-link-macro">GitHub Número 681</block>
   <block id="2901fba3b85d37ea6000d90e72366ba6" category="list-text">Análisis mejorado de nombres de iniciadores iSCSI. (<block ref="3947f141b94c1867221790f45a6ee173" category="inline-link-macro-rx"></block>)</block>
@@ -3835,7 +3833,6 @@ Astra Trident</block>
   <block id="14d76a1fc05dcace5308e48b3d9bad49" category="admonition">Le sugerimos que revise <block ref="4185c20447fb5f0bb4f33698bfd20d27" category="inline-link-macro-rx"></block> antes de actualizar con el operador.</block>
   <block id="a18aa1b83c1605570c9c2911c5180a7b" category="inline-link-macro">Mejora usel &lt;block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category='inline-code'/&gt;</block>
   <block id="3b2fa532fe7cebc94d245316f8af8ab4" category="list-text"><block ref="fd3f4a100d968c915adb11c8797ef5d2" category="inline-link-macro-rx"></block></block>
-  <block id="ed79382c003eb221606454bd2116c86f" category="summary">Astra Trident es un orquestador y gestor de aprovisionamiento de código abierto que mantiene NetApp. Le permite crear volúmenes de almacenamiento para aplicaciones en contenedores gestionadas por Docker y Kubernetes. **Lea las notas de la versión para obtener información crítica sobre la actualización a Astra Trident 23,07.**</block>
   <block id="19b14d01c950971a7d832e9a179ba005" category="doc">Documentación de Astra Trident 23,07</block>
   <block id="a330e835c41b0ff1dfc7e483e7e7f70e" category="summary">Los pools virtuales proporcionan una capa de abstracción entre los back-ends de almacenamiento de Astra Trident y las clases de almacenamiento de Kubernetes. Permiten a un administrador definir aspectos como la ubicación, el rendimiento y la protección de cada back-end de una forma común e independiente del back-end sin hacer que StorageClass especifique qué tipo de backend, pool back-end o backend físico debe utilizar para cumplir los criterios deseados.</block>
   <block id="9f77ac8822dd45ff19910e0170669eb7" category="paragraph">Los pools virtuales proporcionan una capa de abstracción entre los back-ends de almacenamiento de Astra Trident y Kubernetes<block ref="f652904c3bfb48fb25a0a75f485f0ff6" prefix=" " category="inline-code"></block>. Permiten a un administrador definir aspectos, como la ubicación, el rendimiento y la protección de cada back-end de una manera común y independiente del back-end sin hacer un<block ref="e1e2a331ab1d8dccfea06fc8e04e2f5d" prefix=" " category="inline-code"></block> especifique qué tipo de backend físico, pool back-end o backend desea utilizar para cumplir los criterios deseados.</block>
@@ -3904,33 +3901,14 @@ Astra Trident</block>
   <block id="a880ae57450a3d9e2d8dd4c89d54126f" category="list-text">La documentación de Astra Trident está disponible durante los meses 25 - 36, desde la fecha de lanzamiento.</block>
   <block id="34b6cd75171affba6957e308dcbd92be" category="cell">Versión</block>
   <block id="217af7d1776d22530d98be04d104fd49" category="inline-link-macro">23,07</block>
-  <block id="45c5d0a80197b87cde19915df9356724" category="paragraph"><block ref="45c5d0a80197b87cde19915df9356724" category="inline-link-macro-rx"></block></block>
-  <block id="f66bc2df80ac37f354b591907be92e18" category="cell">Julio de 2024</block>
-  <block id="928f12ce7e1197fe962e09f979b98d0d" category="cell">Julio de 2025</block>
   <block id="a257f7f4b2f6e07845ce567df142ad00" category="cell">Julio de 2026</block>
   <block id="1a3a2b5e6c52142797bb5c00594e2a3c" category="inline-link-macro">23,04</block>
   <block id="4f00a05b361ef580687832a6a48984db" category="paragraph"><block ref="4f00a05b361ef580687832a6a48984db" category="inline-link-macro-rx"></block></block>
-  <block id="3b3d7bce734c0832c20ba464b1f2d199" category="cell">Abril de 2024</block>
-  <block id="42ce83dc3f5ef22d986311b267a5ac20" category="cell">Abril de 2025</block>
   <block id="fc7d05f9009e90b92a15aad926bca249" category="cell">Abril de 2026</block>
   <block id="8dfda84fc7f59655e20a770603bf9231" category="inline-link-macro">23,01</block>
   <block id="e0ed61e44672f0b6193055dd0719d240" category="paragraph"><block ref="e0ed61e44672f0b6193055dd0719d240" category="inline-link-macro-rx"></block></block>
-  <block id="efe846805e5476fec607bbf54e45dc44" category="cell">A enero de 2024</block>
-  <block id="9dd6e3f1271bf8cdcd9a0becace5f06f" category="cell">A enero de 2025</block>
   <block id="7022ed6df71cc12fbd0576cef4df23fd" category="cell">A enero de 2026</block>
-  <block id="775d4bb28d257a6aa23992563a82c458" category="inline-link-macro">22,10</block>
-  <block id="1d064e71d708bc66779c604db1339850" category="paragraph"><block ref="1d064e71d708bc66779c604db1339850" category="inline-link-macro-rx"></block></block>
-  <block id="b0ec3d3ab3b33bd69418a7bd9e4d8f9e" category="cell">Octubre de 2023</block>
-  <block id="09ea156cd1da2f7e3fda8aefab96074a" category="cell">Octubre de 2024</block>
-  <block id="99dfa28920a40a7be0858c50f989a3e5" category="cell">Octubre de 2025</block>
-  <block id="b321f6c1ada34a3fa850996d673e01ca" category="inline-link-macro">22,07</block>
-  <block id="295e1f077ca9f1e68f56c558741bad74" category="paragraph"><block ref="295e1f077ca9f1e68f56c558741bad74" category="inline-link-macro-rx"></block></block>
   <block id="cfab1ba8c67c7c838db98d666f02a132" category="cell">--</block>
-  <block id="e764fe6b8f8825a307a87cedbef45678" category="inline-link-macro">22,04</block>
-  <block id="865d5fc74524e198b7d4edc0b0f93cd6" category="paragraph"><block ref="865d5fc74524e198b7d4edc0b0f93cd6" category="inline-link-macro-rx"></block></block>
-  <block id="955ddf0f7e289ee80cdea4b5324b620d" category="inline-link-macro">22,01</block>
-  <block id="1d6d13ec4b4db5f5d3487f7624ba2730" category="paragraph"><block ref="1d6d13ec4b4db5f5d3487f7624ba2730" category="inline-link-macro-rx"></block></block>
-  <block id="55559f520040667d3f8931728b37ef07" category="admonition">Versiones anteriores a 21.07, redirigir al sitio de documentación heredado.</block>
   <block id="40e41fb2db11266b8f751c0d5c67cba0" category="inline-link">Base de conocimientos de NetApp (se requiere inicio de sesión)</block>
   <block id="01005ecf4349194d1ec13d0ba516c9e5" category="paragraph">Para obtener una lista completa de los artículos de solución de problemas, consulte<block ref="57f5c759ada931c6a2051314ca6ee99e" category="inline-link-rx"></block>. También puede encontrar información sobre la solución de problemas relacionados con Astra<block ref="695f48b1d8b7348c0e2828947d24161e" category="inline-link-rx"></block>.</block>
   <block id="1cf7168782187634fbc408c66b895dbc" category="section-title">Soporte de la comunidad</block>
@@ -3944,21 +3922,6 @@ Astra Trident</block>
   <block id="8f4c1b75985ff2903107b7115115ea58" category="list-text"><block ref="8f4c1b75985ff2903107b7115115ea58" category="inline-link-macro-rx"></block></block>
   <block id="d59c00abbeaf33a9a094b3a69c563405" category="inline-link-macro">NetApp.io</block>
   <block id="b86b16f39688f208b4a554adb7958c46" category="list-text"><block ref="b86b16f39688f208b4a554adb7958c46" category="inline-link-macro-rx"></block></block>
-  <block id="17c5eeb01739643b5aef94fe18b6c849" category="summary">Puede utilizar el selector de versiones para desplazarse entre la última versión y las cuatro versiones anteriores o utilizar los siguientes enlaces.</block>
-  <block id="93168a8084b3e838d2932c4734bd234e" category="section-title">Versiones anteriores</block>
-  <block id="039b1be5cbe744fb8a84aa3fb3f1e4e0" category="paragraph">Si no utiliza Astra Trident 23,07, la documentación de versiones anteriores está disponible según la <block ref="6e1ac221c7aa10f6bb30cbfd51cb3204" category="inline-link-macro-rx"></block>.</block>
-  <block id="35e136dc2ee53639294dbf7dbadf4436" category="inline-link">Astra Trident 23,04</block>
-  <block id="b409a213a2362e60968efbd1c87c6713" category="list-text"><block ref="b409a213a2362e60968efbd1c87c6713" category="inline-link-rx"></block></block>
-  <block id="4693b2393d80830cd4f198db20bf2b72" category="inline-link">Astra Trident 23,01</block>
-  <block id="cd494508ccf1cdc45163d6d9d0f401ff" category="list-text"><block ref="cd494508ccf1cdc45163d6d9d0f401ff" category="inline-link-rx"></block></block>
-  <block id="3fe5d266a33f137293c314a2e334b611" category="inline-link">Astra Trident 22,10</block>
-  <block id="9fefe9ff51badc61edd8a36c8240aa29" category="list-text"><block ref="9fefe9ff51badc61edd8a36c8240aa29" category="inline-link-rx"></block></block>
-  <block id="21d437ff7c8ceb5481603b5d2c05442a" category="inline-link">Astra Trident 22,07</block>
-  <block id="8a7908446b584a99ce1055c602a9c74e" category="list-text"><block ref="8a7908446b584a99ce1055c602a9c74e" category="inline-link-rx"></block></block>
-  <block id="c53358822905bb04d312060d1cb568af" category="inline-link">Astra Trident 22,04</block>
-  <block id="fdd380631ba8063e7b8f842282a01e40" category="list-text"><block ref="fdd380631ba8063e7b8f842282a01e40" category="inline-link-rx"></block></block>
-  <block id="4af8991c21dff2f779496b8350d1124b" category="inline-link">Astra Trident 22,01</block>
-  <block id="7669b0b69333e81c7c208aea3d1a3c6f" category="list-text"><block ref="7669b0b69333e81c7c208aea3d1a3c6f" category="inline-link-rx"></block></block>
   <block id="ea3d51fb2b16acb7cb260f25bc8965b1" category="sidebar">Astra Trident es un orquestador y gestor de aprovisionamiento de código abierto que mantiene NetApp. Le permite crear volúmenes de almacenamiento para aplicaciones en contenedores gestionadas por Docker y Kubernetes.</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
   <block id="312b0dc38b01ff32c1b2f5f81ee1ab2d" category="sidebar">Realice puestas en marcha con el operador de Trident</block>
@@ -4038,4 +4001,7 @@ Astra Trident</block>
   <block id="ecc356799a42045ed6a6397f3f280cd2" category="paragraph">Los siguientes ejemplos muestran cómo importar volúmenes gestionados y no gestionados usando anotaciones de PVC.</block>
   <block id="cd8b45d6d96bb528f04c3ce2788b337d" category="paragraph">El siguiente ejemplo importa un volumen de 1GiB<block ref="8321592ce24c8a122ecf26a63cfca407" prefix=" " category="inline-code"></block> llamado<block ref="47068649001b68b4aba2f4219a2f981b" prefix=" " category="inline-code"></block> desde backend<block ref="ac181edf7a7be1f8ae6a6b0ac4a71686" prefix=" " category="inline-code"></block> con el modo de acceso RWO establecido usando anotaciones PVC:</block>
   <block id="6aa655b386a1e31c420fd6553ed2b4fc" category="paragraph">El siguiente ejemplo importa 1Gi<block ref="8321592ce24c8a122ecf26a63cfca407" prefix=" " category="inline-code"></block> volumen llamado<block ref="a8aa3f9da25a5d21fdd26c0a26592e1e" prefix=" " category="inline-code"></block> desde backend<block ref="4bafc897a4f30b09156a60d3350c8819" prefix=" " category="inline-code"></block> con el modo de acceso RWO configurado usando anotaciones PVC:</block>
+  <block id="62bc04158f931e9b0a26f5676c8ab043" category="paragraph"><block ref="62bc04158f931e9b0a26f5676c8ab043" category="inline-link-macro-rx"></block></block>
+  <block id="15bd21e4cb669eaf47cfec94c1119ed7" category="paragraph">NetApp está continuamente mejorando y perfeccionando sus productos y servicios. Aquí tienes algunas de las últimas características de Astra Trident. Para versiones anteriores, consulta las versiones anteriores de la documentación.</block>
+  <block id="67826c4969c30c033af1c61762389384" category="sidebar">Astra Trident es un aprovisionador y orquestador de almacenamiento de código abierto mantenido por NetApp. Te permite crear volúmenes de almacenamiento para aplicaciones en contenedores gestionadas por Docker y Kubernetes. **Lee las notas de la versión para información crítica sobre la actualización a Astra Trident 23.07.**</block>
 </blocks>
